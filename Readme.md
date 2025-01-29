@@ -1,5 +1,4 @@
-
-
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Overview
 This is the repository of the dataset and code for the paper "Synthetic Artifact Auditing: Tracing LLM-Generated Synthetic Data Usage in Downstream Applications" accepted at Usenix Security 2025.
@@ -22,7 +21,7 @@ pip install -r requirements.txt
 ### Dataset
 
 1. Real data will be directly downloaded from Hugging Face once the training scripts are executed.
-2. Synthetic Data: `results/generated_data` If you want to generate synthetic data, please refer to the ` Synthetic Data Generation` section.
+2. Synthetic Data: `results/generated_data`, please download from [here](https://drive.google.com/file/d/1HwtE68Ig_XiJPj_2sUb67_HbZdpl1rNw/view?usp=sharing). If you want to generate synthetic data, please refer to the ` Synthetic Data Generation` section.
 
 
 ## 2. Classifiers/Generators/Statistical Plots Training/Generation
